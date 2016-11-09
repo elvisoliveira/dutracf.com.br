@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="pt-BR"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="pt-BR"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Camila Ferreira Dutra</title>
+		<!-- resource layer -->
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css?family=Roboto');
+		</style>
+		<style type="text/css">
+			@import url("assets/resources/components-font-awesome/css/font-awesome.min.css");
+		</style>
+		<!-- responsive layer -->
+		<style type="text/css" media="(max-width: 600px)">
+			@import url("assets/stylesheets/mobile.css");
+		</style>
+		<style type="text/css" media="(min-width: 600px) and (max-width: 1200px)">
+			@import url("assets/stylesheets/responsive.css");
+		</style>
+		<style type="text/css" media="(min-width: 950px)">
+			@import url("assets/stylesheets/style.css");
+		</style>
+		<!-- jQuery -->
+		<script type="text/javascript" src="assets/resources/jquery/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// Event tracking: Referencias Externas
+				$("div#external-references a").click(function() {
+					ga('send', 'event', 'ExternalReferences', $(this).text());
+				});
+				// Event tracking: Atividades Extracurriculares
+				$("dl.extracurricular-activities a").click(function() {
+					ga('send', 'event', 'ExtracurricularActivities', "Click");
+				});
+				// Event tracking: Formação Complementar
+				$("dl.additional-training ul li").each(function() {
+					var course = $(this).find("h3").text();
+					$(this).find("a").click(function() {
+						ga('send', 'event', 'AdditionalTraining', course);
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="default">
+			<div id="personal">
+				<div id="personal-head">
+					<h1>Camila Ferreira Dutra</h1>
+					<h2>Direito</h2>
+					<div id="pp"><img src="assets/images/pp.jpg" alt="Foto profissional" /></div>
+				</div>
+				<div id="personal-info">
+					<p><i class="fa fa-female"></i>Procuro desempenhar minhas fun&ccedil;&otilde;es com o m&aacute;ximo de zelo poss&iacute;vel, me atendo aos detalhes e de maneira organizada. Possuo aptid&atilde;o para lidar com o p&uacute;blico, trabalhar em equipe e me esfor&ccedil;o para sempre aprimorar as habilidades necess&aacute;rias para um bom operador do Direito. Al&eacute;m disso, possuo um esp&iacute;rito autodidata que me permite aprender com facilidade.</p>
+				</div>
+				<div id="personal-phon">
+					<dl>
+						<dt><i class="fa fa-phone"></i>(31) 98246-6842</dt>
+						<dd>Claro / WhatsApp</dd>
+					</dl>
+					<dl>
+						<dt>(31) 99161-5810</dt>
+						<dd>TIM</dd>
+					</dl>
+					<dl>
+						<dt>(31) 3468-3405</dt>
+						<dd>Residencial</dd>
+					</dl>
+				</div>
+				<div id="personal-mail">
+					<dl>
+						<dt><i class="fa fa-envelope"></i>dutracamilaferreira@gmail.com</dt>
+						<dd>Pessoal</dd>
+					</dl>
+					<dl>
+						<dt>contato@dutracf.com.br</dt>
+						<dd>Profissional</dd>
+					</dl>
+				</div>
+				<div id="personal-addr">
+					<dl>
+						<dt><i class="fa fa-home"></i>Bairro Floresta, Belo Horizonte MG</dt>
+						<dd>31015-179</dd>
+					</dl>
+				</div>
+				<div id="personal-skll">
+					<dl>
+						<dt><i class="fa fa-calendar-o"></i>Habilidades T&eacute;cnicas</dt>
+						<dd>
+							<ul>
+								<li>Microsoft Word</li>
+								<li>Microsoft Excel</li>
+								<li>Microsoft PowerPoint</li>
+								<li>Microsoft Outlook</li>
+								<li>Digita&ccedil;&atilde;o</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<!--
+				<div id="external-references">
+					<dl>
+						<dt><i class="fa fa-external-link-square"></i>Referencias Externas</dt>
+						<dd>
+							<ul>
+								<li><i class="fa fa-linkedin-square"></i><a target="_blank" href="https://www.linkedin.com/in/camila-ferreira-459a88123">LinkedIn</a></li>
+								<li><i class="fa fa-university"></i><a target="_blank" href="http://lattes.cnpq.br/3224645159582626">CNPq Lattes</a></li>
+								<li><i class="fa fa-file-pdf-o"></i><a target="_blank" href="CamilaFerreiraDutra.pdf">PDF</a></li>
+								<li><i class="fa fa-file-text"></i><a target="_blank" href="CamilaFerreiraDutra.docx">DOCX</a></li>
+								<li><i class="fa fa-code"></i><a target="_blank" href="CamilaFerreiraDutra.html">HTML</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				-->
+			</div>
+			<div id="curriculum">
+				<dl class="professional-experience">
+					<dt><i class="fa fa-suitcase"></i>Experi&ecirc;ncia Profissional</dt>
+					<dd>
+						<ul>
+							<li>
+								<h3>Tribunal de Justi&ccedil;a de Minas Gerais (TJMG)</h3>
+								<h4>Agosto 2014 - Agosto 2016</h4>
+								<p>Est&aacute;gio na central de aterma&ccedil;&otilde;es do Juizado Especial das Rela&ccedil;&otilde;es de Consumo. Elabora&ccedil;&atilde;o de pe&ccedil;as processuais e distribui&ccedil;&atilde;o destas utilizando o sistema PROJUDI.</p>
+							</li>
+							<li>
+								<h3>N&uacute;cleo de Pr&aacute;tica Jur&iacute;dica</h3>
+								<h4>Janeiro 2016</h4>
+								<p>Assist&ecirc;ncia jur&iacute;dica &agrave; comunidade carente com a elabora&ccedil;&atilde;o de peti&ccedil;&otilde;es, acompanhamento dos processos, participa&ccedil;&atilde;o em media&ccedil;&atilde;o de conflitos, dentre outras atividades.</p>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="academic-education">
+					<dt><i class="fa fa-university"></i>Forma&ccedil;&atilde;o Acad&ecirc;mica</dt>
+					<dd>
+						<ul>
+							<li>
+								<h3>Centro Universit&aacute;rio Est&aacute;cio de S&aacute;</h3>
+								<h4>Janeiro 2013 - Dezembro 2017</h4>
+								<p>O perfil do profissional de direito formado pela Est&aacute;cio contempla racioc&iacute;nio l&oacute;gico, capacidade para equacionar problemas e desenvolver formas extrajudiciais de preven&ccedil;&atilde;o e solu&ccedil;&atilde;o de conflitos individuais e coletivos, bem como compet&ecirc;ncia pr&aacute;tica para a atua&ccedil;&atilde;o junto ao Poder Judici&aacute;rio. O bacharel em Direito tem vis&atilde;o atualizada de mundo, consci&ecirc;ncia dos problemas de seu tempo e compromisso com a Justi&ccedil;a.</p>
+							</li>
+							<li>
+								<h3>Col&eacute;gio S&atilde;o Lu&iacute;s Gonzaga</h3>
+								<h4>Janeiro 2006 - Dezembro 2012</h4>
+								<p>Ensino m&eacute;dio e fundamental.</p>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="additional-training">
+					<dt><i class="fa fa-graduation-cap"></i>Forma&ccedil;&atilde;o Complementar</dt>
+					<dd>
+						<ul>
+							<li>
+								<h3>Rotinas de Secretaria C&iacute;vel</h3>
+								<h4>Escola Judicial Desembargador Ed&eacute;sio Fernandes - EJEF</h4>
+								<p><strong>Modalidade:</strong> &Agrave; dist&acirc;ncia<br /><strong>Carga Hor&aacute;ria:</strong> 25h<br /><strong>Situa&ccedil;&atilde;o:</strong> Conclu&iacute;do<br /><strong>Certificado:</strong> <a target="_blank" href="http://www.ead.tjmg.jus.br/certificadosvirtuais/verpdf.php?CertificadoCodigo=060ec7a7117cda7">Acessar</a></p>
+							</li>
+							<li>
+								<h3>T&eacute;cnico Operacional para os JESPs</h3>
+								<h4>Escola Judicial Desembargador Ed&eacute;sio Fernandes - EJEF</h4>
+								<p><strong>Modalidade:</strong> &Agrave; dist&acirc;ncia<br /><strong>Carga Hor&aacute;ria:</strong> 20h<br /><strong>Situa&ccedil;&atilde;o:</strong> Conclu&iacute;do<br /><strong>Certificado:</strong> <a target="_blank" href="http://www.ead.tjmg.jus.br/certificadosvirtuais/verpdf.php?CertificadoCodigo=6a2e759ddcaedb1">Acessar</a></p>
+							</li>
+							<li>
+								<h3>Ingl&ecirc;s</h3>
+								<h4>The Best Idiomas e Inform&aacute;tica</h4>
+								<p><strong>N&iacute;vel:</strong> Avan&ccedil;ado<br /><strong>Carga Hor&aacute;ria:</strong> 200h<br /><strong>In&iacute;cio:</strong> Julho/2014<br /><strong>T&eacute;rmino:</strong> Julho/2015</p>
+							</li>
+							<li>
+								<h3>Empresarial</h3>
+								<h4>The Best Idiomas e Inform&aacute;tica</h4>
+								<p><strong>Carga Hor&aacute;ria:</strong> 90h<br /><strong>In&iacute;cio:</strong> Julho/2014<br /><strong>T&eacute;rmino:</strong> Julho/2015</p>
+							</li>
+							<li>
+								<h3>Rotinas de Secretaria Criminal</h3>
+								<h4>Escola Judicial Desembargador Ed&eacute;sio Fernandes-EJEF</h4>
+								<p><strong>Modalidade:</strong> &Agrave; dist&acirc;ncia<br /><strong>Carga Hor&aacute;ria:</strong> 20h<br /><strong>Situa&ccedil;&atilde;o:</strong> Conclu&iacute;do.<br /><strong>Certificado:</strong> <a target="_blank" href="http://www.ead.tjmg.jus.br/certificadosvirtuais/verpdf.php?CertificadoCodigo=4bd368fe9209a27">Acessar</a></p>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="extracurricular-activities">
+					<dt><i class="fa fa-balance-scale"></i>Atividades Extracurriculares</dt>
+					<dd>
+						<div class="activities-img"><img src="assets/images/capa.jpg" alt="Capa Estacio" /></div>
+						<div class="activities-tit">Inicia&ccedil;&atilde;o cient&iacute;fica com a publica&ccedil;&atilde;o do artigo intitulado: A interpreta&ccedil;&atilde;o da atual.</div>
+						<div class="activities-sub">Adequa&ccedil;&atilde;o t&iacute;pica dos crimes de tr&acirc;nsito decorrentes do estado de embriaguez frente &agrave; moderna dogm&aacute;tica penal.</div>
+						<div class="activities-par">
+							<p><strong>Descri&ccedil;&atilde;o:</strong> O objetivo do trabalho foi desenvolver um estudo aprofundado acerca da Teoria do Crime e a Interpreta&ccedil;&atilde;o do elemento volitivo nas condutas criminosas.<br />A proposta foi interpretar a embriaguez como elemento do dolo ou da culpa, capaz de alterar a tipicidade da conduta criminosa.<br />Com esse projeto de pesquisa tentamos viabilizar a an&aacute;lise das repercuss&otilde;es das condutas submetidas ao Tribunal do J&uacute;ri decorrentes de crimes praticados na dire&ccedil;&atilde;o de ve&iacute;culos automotores.<br />Conclu&iacute;mos que a dogm&aacute;tica penal n&atilde;o pode ser alterada quando oportuno ou desejado, de modo a atender os interesses do aplicador do direito ou &agrave; sociedade, em detrimento de garantias e princ&iacute;pios constitucionais e penais conquistados se, para isso, n&oacute;s temos o procedimento leg&iacute;timo e correto que &eacute; o pr&oacute;prio processo legislativo.</p>
+							<p><strong>Coordenador:</strong> Carlos Eduardo Rocha Mussolini.</p>
+							<p><strong>Situa&ccedil;&atilde;o:</strong> Conclu&iacute;do.</p>
+							<p><strong>Link para pesquisa:</strong> <a target="_blank" href="http://portal.estacio.br/docs/pesquisaaplicada/AnaisVIISeminario-de-Pesquisa.pdf">http://bit.ly/2bmsmQb</a></p>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<script type="text/javascript">
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+						m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-82381868-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>

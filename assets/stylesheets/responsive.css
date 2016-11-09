@@ -1,0 +1,96 @@
+* {margin: 0;padding: 0;font-family: 'Roboto', sans-serif;}
+html, body { background-color: #eae8e7;}
+
+div#default {width: 400px;margin: 25px auto;height: 2600px;min-width: initial;}
+div#default div#personal {float: left;width: 100%;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);background-color: #5da4d9;color: #fff;font-size: 13px;position: relative;}
+div#default div#personal > div {float: right;width: 70%;border-bottom: 1px solid #4783c2;padding-bottom: 25px;margin-bottom: 25px;padding-right: 15px;line-height: 20px;}
+div#default div#personal > div i {position: absolute;left: 0px;width: calc(30% - 10px);font-size: 25px;line-height: 30px;text-align: center;}
+
+div#default div#personal > div#personal-head {width: 100%;padding: 0;position: relative;border: 0;margin-bottom: 15px;}
+div#default div#personal > div#personal-head h1 {position: absolute;font-size: 19px;bottom: 15px;right: 0;border-top-left-radius: 5px;background-color: #5da4d9;width: calc(70% + 5px);border-bottom-left-radius: 5px;text-align: left;padding: 5px 10px;}
+div#default div#personal > div#personal-head h2 { position: absolute; bottom: 11px; font-size: 17px; display: none; right: 10px;}
+div#default div#personal > div#personal-head div { float: left; width: 100%;}
+div#default div#personal > div#personal-head div img { float: left; width: 100%;}
+
+div#personal-info {}
+div#personal-info p {}
+
+div#personal-phon {}
+div#personal-phon dl { float: left; width: 100%; margin-bottom: 15px; }
+div#personal-phon dl dt { font-size: 15px; float: left; width: 100%; }
+div#personal-phon dl dd { font-size: 14px; text-transform: lowercase; float: left; width: 100%; opacity: 0.7; }
+div#personal-phon dl:last-child { margin: 0; }
+
+div#personal-mail {}
+div#personal-mail dl { float: left; width: 100%; margin-bottom: 12px; }
+div#personal-mail dl dt { font-size: 15px; }
+div#personal-mail dl dd { font-size: 14px; text-transform: lowercase; font-weight: 300; opacity: 0.7; }
+div#personal-mail dl:last-child {margin: 0;}
+
+div#personal-addr {}
+div#personal-addr dl {}
+div#personal-addr dl dt { font-size: 15px; }
+div#personal-addr dl dd { font-size: 14px; opacity: 0.7; }
+
+div#personal-skll { border: 0; margin: 0; }
+div#personal-skll dl { float: left; width: 100%; }
+div#personal-skll dl dt { font-size: 18px; float: left; width: 100%; line-height: 30px; }
+div#personal-skll dl dd { float: left; width: 100%; margin-top: 10px; }
+div#personal-skll dl dd ul {}
+div#personal-skll dl dd ul li { list-style: inside square;}
+
+div#default div#curriculum {float: right;color: #767270;margin-top: 30px;width: 100%;}
+div#default div#curriculum dl {float: left;width: 100%;position: relative;background-color: #fff;padding-bottom: 15px;margin-bottom: 35px;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);}
+div#default div#curriculum dl dt {float: right;width: 90%;margin: 0 5%;font-size: 30px;padding: 35px 0;text-align: center;line-height: 30px;font-weight: 600;}
+div#default div#curriculum dl dt i {float: left;width: 100%;margin-bottom: 15px;}
+div#default div#curriculum dl dd {float: right;width: 90%;margin-bottom: 25px;margin: 0 5%;}
+
+dl.academic-education {}
+dl.academic-education ul {}
+dl.academic-education ul li{ list-style: none; border-bottom: 1px solid #bdbdbd; padding-bottom: 25px; float: left; margin-bottom: 25px; }
+dl.academic-education ul li h3 { font-size: 16px; line-height: 16px; margin-bottom: 10px; font-weight: 500; float: left; width: 90%; }
+dl.academic-education ul li h4 { font-size: 13px; font-weight: 300; margin-bottom: 10px; float: left; color: #5da4d9; text-transform: uppercase; width: 90%; }
+dl.academic-education ul li p {font-size: 13px; font-weight: 300; float: left; line-height: 20px; width: 90%; }
+dl.academic-education ul li:last-child { border: 0; margin: 0; }
+
+dl.professional-experience {}
+dl.professional-experience ul { float: left; width: 100%; }
+dl.professional-experience ul li { float: left; width: 100%; border-top: 1px solid #bdbdbd; margin-top: 25px; list-style: none; padding-top: 25px; }
+dl.professional-experience ul li:first-child { margin-top: 0; padding-top: 0; border: 0; }
+dl.professional-experience ul li h3 { font-size: 16px; line-height: 16px; margin-bottom: 10px; font-weight: 500; float: left; width: 90%; }
+dl.professional-experience ul li h4 { font-size: 13px; font-weight: 300; margin-bottom: 10px; float: left; color: #5da4d9; text-transform: uppercase; width: 90%; }
+dl.professional-experience ul li p { font-size: 13px; font-weight: 300; float: left; line-height: 20px; width: 90%; }
+
+dl.additional-training {}
+dl.additional-training ul {float: left;width: 100%;}
+dl.additional-training ul li:nth-child(odd) { float: left; clear: left; }
+dl.additional-training ul li:nth-child(even) { float: right; clear: right; }
+dl.additional-training ul li:nth-child(1) {background-color: #e95855;}
+dl.additional-training ul li:nth-child(2) {background-color: #707281;}
+dl.additional-training ul li:nth-child(3) {background-color: #47bac9;}
+dl.additional-training ul li:nth-child(4) {background-color: #68c02e;}
+dl.additional-training ul li:nth-child(5) {background-color: #564d52;}
+dl.additional-training ul li:nth-child(6) {background-color: #e95855;}
+dl.additional-training ul li {width: 100%;list-style: none;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);margin-bottom: 20px;}
+dl.additional-training ul li h3 { float: left; width: calc(100% - 40px); font-size: 18px; padding: 15px 20px 0 20px; font-weight: 500; color: white; }
+dl.additional-training ul li h4 { font-size: 13px; color: white; opacity: 0.7; margin: 5px 20px 10px 20px; font-weight: lighter; float: left; }
+dl.additional-training ul li p { background-color: #fff; padding: 10px; font-size: 13px; float: left; color: #767270; width: calc(100% - 20px); line-height: 25px; }
+dl.additional-training ul li p a { color: #5da4d9; }
+
+dl.extracurricular-activities {}
+dl.extracurricular-activities div.activities-img {float: left;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);width: 30%;display: none;}
+dl.extracurricular-activities div.activities-img img { float: left; width: 100%; }
+dl.extracurricular-activities div.activities-sub {float: right;width: 100%;font-size: 13px;font-weight: 500;line-height: 20px;}
+dl.extracurricular-activities div.activities-tit {float: right;width: 100%;margin-bottom: 10px;font-size: 16px;font-weight: 500;line-height: 20px;}
+dl.extracurricular-activities div.activities-par {float: right;width: 100%;}
+dl.extracurricular-activities div.activities-par p {font-size: 13px;font-weight: 300;float: left;margin-top: 10px;line-height: 20px;width: 100%;}
+dl.extracurricular-activities div.activities-par p a { float: left; color: #5da4d9; width: 100%; }
+
+div#default div#personal div#external-references { border: 0; margin: 0; }
+div#default div#personal div#external-references dl { float: left; width: 100%; }
+div#default div#personal div#external-references dl dt { font-size: 18px; float: left; width: 100%; line-height: 30px; }
+div#default div#personal div#external-references dl dd { float: left; width: 100%; margin-top: 10px; }
+div#default div#personal div#external-references dl dd ul {}
+div#default div#personal div#external-references dl dd ul li {list-style: none;float: left;width: 100%;}
+div#default div#personal div#external-references dl dd ul li a {color: #fff;float: left;margin-left: 10px;line-height: 30px;}
+div#default div#personal div#external-references dl dd ul li i { position: relative; width: 20px; float: left; text-align: center; font-size: 20px; }
