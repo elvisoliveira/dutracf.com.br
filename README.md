@@ -32,43 +32,50 @@ Ensino médio e fundamental.
 
 ### Rotinas de Secretaria Cível
 Escola Judicial Desembargador Edésio Fernandes - EJEF  
-**Modalidade:** À distância  
-**Carga Horária**: 25h  
-**Situação:** Concluído
-
+```
+Modalidade: À distância  
+Carga Horária: 25h  
+Situação: Concluído
+```
 ### Técnico Operacional para os JESPs
 Escola Judicial Desembargador Edésio Fernandes - EJEF  
-**Modalidade:** À distância  
-**Carga Horária:** 20h  
-**Situação:** Concluído
-
+```
+Modalidade: À distância  
+Carga Horária: 20h  
+Situação: Concluído
+```
 ### Inglês
 The Best Idiomas e Informática  
-**Nível:** Avançado  
-**Carga Horária:** 200h  
-**Início:** Julho/2014  
-**Término:** Julho/2015
-
+```
+Nível: Avançado  
+Carga Horária: 200h  
+Início: Julho/2014  
+Término: Julho/2015
+```
 ### Empresarial
 The Best Idiomas e Informática  
-**Carga Horária:** 90h  
-**Início:** Julho/2014  
-**Término:** Julho/2015
-
+```
+Carga Horária: 90h  
+Início: Julho/2014  
+Término: Julho/2015
+```
 ### Rotinas de Secretaria Criminal
 
 Escola Judicial Desembargador Edésio Fernandes - EJEF  
-**Modalidade:** À distância  
-**Carga Horária:** 20h  
-**Situação:** Concluído.  
-**Certificado:** Acessar
-
+```
+Modalidade: À distância  
+Carga Horária: 20h  
+Situação: Concluído.  
+Certificado: Acessar
+```
 ## Atividades Extracurriculares
 
 Iniciação científica com a publicação do artigo intitulado: A interpretação da atual.Adequação típica dos crimes de trânsito decorrentes do estado de embriaguez frente à moderna dogmática penal.Descrição: O objetivo do trabalho foi desenvolver um estudo aprofundado acerca da Teoria do Crime e a Interpretação do elemento volitivo nas condutas criminosas.  
 A proposta foi interpretar a embriaguez como elemento do dolo ou da culpa, capaz de alterar a tipicidade da conduta criminosa.  
 Com esse projeto de pesquisa tentamos viabilizar a análise das repercussões das condutas submetidas ao Tribunal do Júri decorrentes de crimes praticados na direção de veículos automotores.  
 Concluímos que a dogmática penal não pode ser alterada quando oportuno ou desejado, de modo a atender os interesses do aplicador do direito ou à sociedade, em detrimento de garantias e princípios constitucionais e penais conquistados se, para isso, nós temos o procedimento legítimo e correto que é o próprio processo legislativo.  
-**Coordenador:** Carlos Eduardo Rocha Mussolini.  
-**Situação:** Concluído.  
-**Link para pesquisa:** http://bit.ly/2bmsmQb
+```
+Coordenador: Carlos Eduardo Rocha Mussolini.  
+Situação: Concluído.  
+Link para pesquisa: http://bit.ly/2bmsmQb
+```
