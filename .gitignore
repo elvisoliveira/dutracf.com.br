@@ -4,6 +4,10 @@ assets/resources
 ### Documents
 documents/
 
+### Apache
+access.log
+error.log
+
 ### Node ###
 # Logs
 logs
