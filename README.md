@@ -11,7 +11,7 @@ Procuro desempenhar minhas funções com o máximo de zelo possível, me atendo 
 ## Experiência Profissional
 
 ### Chaves, Marques & Souza Sociedade de Advogados  
-SETEMBRO 2016 - ATUAL  
+Setembro 2016 - Atual  
 Elaboração de peças jurídicas diversas;  
 Elaboração de contratos, pareceres, pesquisas jurisprudenciais.  
 Atividades administrativas do escritório;  
