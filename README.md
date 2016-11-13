@@ -10,6 +10,14 @@ Procuro desempenhar minhas funções com o máximo de zelo possível, me atendo 
 
 ## Experiência Profissional
 
+### Chaves, Marques & Souza Sociedade de Advogados  
+SETEMBRO 2016 - ATUAL  
+Elaboração de peças jurídicas diversas;  
+Elaboração de contratos, pareceres, pesquisas jurisprudenciais.  
+Atividades administrativas do escritório;  
+Realização de diligências externas junto aos Órgãos Públicos em geral, além de instituições privadas.  
+Auxílio com relação às mídias sociais do escritório.
+
 ### Tribunal de Justiça de Minas Gerais (TJMG)
 Agosto 2014 - Agosto 2016  
 Estágio na central de atermações do Juizado Especial das Relações de Consumo. Elaboração de peças processuais e distribuição destas utilizando o sistema PROJUDI.
